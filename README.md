@@ -13,6 +13,7 @@ Watch a quick demonstration of the system's core capabilities, including automat
 
 Test the live API environment here:
 [**API Reference (Scalar)**](https://healthcare-backend-mh-e0bxeqf3hpb6a9ft.uaenorth-01.azurewebsites.net/scalar/v1)
+
 <img width="1920" height="865" alt="API_Interface" src="https://github.com/user-attachments/assets/4eb22bd7-9454-4e1b-85a7-dd6ed19c7679" />
 *A clear view of the API documentation interface, providing developers with an interactive environment to test endpoints, manage authentication tokens, and inspect response schemas in real-time.*
 
@@ -30,6 +31,7 @@ Test the live API environment here:
 ## 📊 Database Insight
 Our data is managed with strict integrity. The following capture shows the real-time `AuditLogs` table tracking user operations directly from our production Azure instance:
 <img width="1920" height="868" alt="Azure_Database" src="https://github.com/user-attachments/assets/6bd05588-d67f-4994-bc7c-fd018290e514" />
+*A real-time snapshot of the AuditLogs table in our Azure SQL instance, demonstrating the immutable tracking of user actions, including timestamps and operations, ensuring full data accountability and integrity.*
 
 ## 📝 How to Test
 1. **Register**: Use the `/api/Auth/register` endpoint to create an identity.
